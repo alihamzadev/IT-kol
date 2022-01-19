@@ -268,11 +268,18 @@ body {
 .banner-logo {
   margin-bottom: 30px;
 }
-
+.fotter-mail-div {
+  width: 20%;
+}
 .footer-div {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px;
   min-height: 30vh;
-  margin-top: 50px;
+  margin-top: 50px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-bottom: 25px;
 }
 
 .banner-heading {
@@ -295,7 +302,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-grow: 1;
-  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 .pink-text {
@@ -310,10 +317,9 @@ body {
   font-weight: bold;
   color: rgb(12, 12, 34);
 }
-.pink .nav-link-footer {
+.nav-link-footer {
   font-size: 14px;
   margin-bottom: 20px;
-  font-weight: bold;
   color: rgba(12, 12, 34, 255);
 }
 .newlogo {
@@ -458,6 +464,19 @@ body {
     font-size: 20px;
     text-align: left;
     margin-top: 20px;
+  }
+  .fotter-mail-div {
+    width: 100%;
+  }
+  .footer-div {
+    /* margin-bottom: 50px;
+    min-height: 30vh;
+    margin-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    margin-top: 80px;
+    margin-bottom: 30px;
   }
   .industry-section {
     padding: 0px;
